@@ -12,11 +12,9 @@ class DetailVC: UIViewController {
     var menuShowing = true
     
     @IBOutlet weak var photoImageView: UIImageView!
-    
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var surnameLabel: UILabel!
     @IBOutlet weak var ageLabel: UILabel!
-
     @IBOutlet weak var plashkaRose: UIView!
     @IBOutlet weak var movieConstraint: NSLayoutConstraint!
     
@@ -26,10 +24,10 @@ class DetailVC: UIViewController {
         photoImageView.image = stubImage
         photoImageView.clipsToBounds = true
         
-        if let detail = detailModel {
-            nameLabel.text = detail.name
-            surnameLabel.text = detail.surname
-            ageLabel.text = "age is: \(detail.age)"
+        if let dedetailModeltail = detailModel {
+            nameLabel.text = dedetailModeltail.name
+            surnameLabel.text = dedetailModeltail.surname
+            ageLabel.text = "age is: \(dedetailModeltail.age)"
         }
     }
     

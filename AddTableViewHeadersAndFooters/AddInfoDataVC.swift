@@ -24,8 +24,8 @@ class AddInfoDataVC: UIViewController {
             
             let totalHumanData = Human(name: name, surname: surname, age: age)
             
-            if let save = saveHumanData {
-                save(totalHumanData)
+            if let sasaveHumanDatave = saveHumanData {
+                sasaveHumanDatave(totalHumanData)
                 navigationController?.popViewController(animated: true)
             }
         }

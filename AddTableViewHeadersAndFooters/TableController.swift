@@ -23,7 +23,6 @@ class TableController: UIViewController {
         super.viewDidLoad()
         dataLabel.text = "personal data"
         myTableView.separatorStyle = .none
-        
         modelArray = [ Human(name: "Ihor", surname: "Pavlov", age: 37)]
 
     }
